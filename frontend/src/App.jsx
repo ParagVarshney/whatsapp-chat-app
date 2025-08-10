@@ -9,7 +9,7 @@ export default function App() {
   const [messages, setMessages] = useState([]);
   const [mobileViewMode, setMobileViewMode] = useState("sidebar"); // "sidebar" or "chat"
 
-  const API_BASE = "http://localhost:5000/api";
+  const API_BASE = "https://whatsapp-chat-app-h1oe.onrender.com/api";
 
   const fetchChats = () => {
     axios
